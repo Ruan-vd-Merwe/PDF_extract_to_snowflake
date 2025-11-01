@@ -1,0 +1,25 @@
+# Core PDF & data
+pandas==2.2.2
+pyarrow==16.1.0
+pypdf==4.3.1
+pdfplumber==0.11.2
+camelot-py[cv]==0.11.0 ; platform_system != "Windows"  # optional (needs ghostscript)
+tabula-py==2.10.0  # requires Java
+reportlab==4.2.2
+pymupdf==1.24.9
+
+# OCR & CV (for scans)
+pytesseract==0.3.13
+opencv-python-headless==4.10.0.84
+
+# Embeddings & ML
+sentence-transformers==3.0.1
+scikit-learn==1.5.1
+xgboost==2.1.1
+
+# Snowflake
+snowflake-connector-python==3.11.0
+apache-airflow-providers-snowflake==5.6.0
+
+# Airflow provider helpers
+apache-airflow-providers-common-sql==1.12.0
